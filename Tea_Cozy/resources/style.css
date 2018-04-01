@@ -1,0 +1,153 @@
+
+        /* header */
+body {
+  margin: 0;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+header .links span {
+  padding: 10px 20px;
+}
+
+a {
+  font-size: 20px;
+  color: seashell;
+}
+
+        /* main */
+        /* Our Mession */
+.our-mission {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 69px;
+}
+
+.our-mission .text {
+  background-color: black;
+  width: 1200px;
+}
+
+.our-mission .text .title,
+.our-mission .text .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+         /* Tea of the Month */
+.tea-of-the-month {
+  width: 1000px;
+  margin: 40px auto;
+  padding-top: 69px;
+}
+
+.tea-of-the-month .text .title,
+.tea-of-the-month .text .content {
+  display: flex;
+  justify-content: center;
+}
+
+.tea-of-the-month .images .part-one,
+.tea-of-the-month .images .part-two {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tea-of-the-month .images img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea-of-the-month .images .image,
+.tea-of-the-month .images .under-image {
+  display: flex;
+  justify-content: center;
+}
+
+        /* locations */
+.locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  margin: 40px auto;
+  padding-top: 69px;
+}
+
+.locations .title {
+  display: flex;
+  justify-content: center;
+}
+
+.locations .content {
+  display: flex;
+}
+
+.locations .content .address-one,
+.locations .content .address-two,
+.locations .content .address-three {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.locations .content .address-one {
+  margin-left: 110px;
+  margin-right: 20px
+}
+
+.locations .content .address-two {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.locations .content .address-three {
+  margin-left: 20px;
+  margin-right: 110px;
+}
+
+        /* footer */
+footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .title,
+footer .email,
+footer .phone {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  margin-left: 20px;
+}
